@@ -1,0 +1,92 @@
+digraph Pres {
+
+  title="Grafo de pre-requisitos";
+  size="8,11" ratiol=fill margin="0.3";
+
+   1 [label="Int. Inf."];
+   2 [label="Mat. Instr."];
+   3 [label="LPT 1"];
+   4 [label="Algoritmos"];
+   5 [label="Circuitos"];
+   6 [label="GA"];
+   7 [label="Est."];
+   8 [label="LPT 2"];
+   9 [label="ED 1"];
+  10 [label="Sist. Dig."];
+  11 [label="Calc. 1"];
+  12 [label="Alg. Lin."];
+  13 [label="Mat. Disc."];
+  14 [label="ED 2"];
+  15 [label="Prog. 1"];
+  16 [label="Prob. Est."];
+  17 [label="Calc. 2"];
+  18 [label="Org. Comp."];
+  19 [label="BD 1"];
+  20 [label="Prog. 2"];
+  21 [label="Calc. Num."];
+  22 [label="IPS"];
+  23 [label="LFA"];
+  24 [label="Grafos"];
+  25 [label="BD 2"];
+  26 [label="ES 1"];
+  27 [label="IPC"];
+  28 [label="Teoria"];
+  29 [label="Dir. & Cid."];
+  30 [label="SO"];
+  31 [label="Hist. FS"];
+  32 [label="ES 2"];
+  33 [label="Redes"];
+  34 [label="CG"];
+  35 [label="PGP"];
+  36 [label="Compiladores"];
+  37 [label="FCS"];
+  38 [label="IA"];
+  39 [label="Opt. 1"];
+  40 [label="Opt. 2"];
+  41 [label="Comp. Dist."];
+  42 [label="TCC 1"];
+  43 [label="MES"];
+  44 [label="Opt. 3"];
+  45 [label="Opt. 4"];
+  46 [label="Seg. Comp."];
+  47 [label="TCC 2"];
+
+  3 -> 8;
+  4 -> 9;
+  5 -> 10;
+  2 -> 11;
+  6 -> 12;
+  9 -> 14;
+  4 -> 15;
+  7 -> 16;
+  11 -> 17;
+  10 -> 18;
+  4 -> 20;
+  2 -> 21;
+  9 -> 21;
+  14 -> 23;
+  14 -> 24;
+  19 -> 25;
+  15 -> 26;
+  20 -> 26;
+  23 -> 28;
+  18 -> 30;
+  26 -> 32;
+  30 -> 33;
+  6 -> 34;
+  12 -> 34;
+  26 -> 35;
+  23 -> 36;
+  24 -> 38;
+  33 -> 41;
+
+
+  // Extras
+
+  2 -> 6 [style=dotted];
+  14 -> 19 [style=dotted];
+  20 -> 46 [style=dotted];
+  15 -> 20 [style=dotted];
+
+
+}
