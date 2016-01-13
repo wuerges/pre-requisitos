@@ -1,7 +1,7 @@
 digraph Pres {
 
   title="Grafo de pre-requisitos";
-  size="8,11" ratiol=fill margin="0.3";
+  //size="11" ratiol=fill margin="0.3";
 
    1 [label="Int. Inf."];
    2 [label="Mat. Instr."];
