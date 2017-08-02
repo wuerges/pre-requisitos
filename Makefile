@@ -4,4 +4,4 @@ all:
 ifndef DOT
 	$(error "dot is not available please install graphviz")
 endif
-	dot -Tpdf -o pres.pdf pres.dot 
+	dot -Tpng -o pres.png pres.dot 
